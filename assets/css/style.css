@@ -875,7 +875,7 @@ body {
         align-items: center;
        }
        .card{
-        width: 100%;
+        width: 90%;
         font-size: 15px;
         display: flex;
         justify-content: center;
@@ -893,7 +893,7 @@ body {
       }
 
        .container-footer{
-        height: 60vh;
+        height: fit-content;
         display: flex;
         flex-wrap: wrap;
         padding-bottom: 40px;
@@ -957,24 +957,42 @@ body {
        }
 
        .footer-item{
-        width: 40%;
+        margin-bottom: 36px;
+        width: 80%;
         display: flex;
         padding-bottom: 0px;
         justify-content: center;
         align-items: center;
+        font-size: 30px;
        }
        .footer-item > ul{
         height: fit-content ;
         display: flex;
-        width: 70%;
+        width: 72%;
         text-align:end;
-        align-items: center;
+        align-items: first baseline;
        }
+
+       .footer-item h3 {
+        width: 80%;
+        }
        .footer-input-newsletter{
-        width: 90%;
+        width: 70%;
         display: flex;
         justify-content: center;
-        align-items: center;
+        align-items: end;
+        margin-bottom: 0;
+        margin-left: 33px;}
+        
+        .pagination {
+            font-size: 25px;
+            text-decoration: none;
+            width: 100%;
+            
+            display: flex;
+            bottom: 39px;
+            justify-content: space-around;
+        }
         
        }
        body{
@@ -985,7 +1003,7 @@ body {
         
         
         
-    }
+    
 
     
       
