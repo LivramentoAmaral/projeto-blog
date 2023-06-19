@@ -32,6 +32,11 @@
 
 <body>
     <div class="container">
+        <div class="mobile-menu-icon">
+            <button onclick="menuShow()"><img class="icon" src="/assets/img/menu_white_36dp.svg" alt=""></button>
+        </div>
+    </nav>
+    <div class="mobile-menu">
         <div class="sidebar">
 			<div class="logo">
                 <img src="../assets/img/logo-white.png" alt="">
@@ -53,6 +58,34 @@
                         <li class="li-categoria"><a href="create_post.html">Cadastrar</a>
                     </ul>
                 </li>
+			</ul>
+		</div>
+                          
+    </div>
+        <div class="sidebar pc">
+			<div class="logo">
+                <img src="../assets/img/logo-white.png" alt="">
+            </div>
+			<ul class="ul-sidebar">
+				<li class="home"><a href="index.html">Home</a></li>
+			
+                    <details>
+                    <summary class="classifica">Categoria</summary>
+                    <ul>
+                        <li class="li-categoria"><a href="list_categoria.html">Listar</a>
+                        <li class="li-categoria"><a href="create_categoria.html">Cadastrar</a>
+                    </ul>
+                </details>
+                
+                
+				<details>
+                    <summary class="classifica">Post</summary>
+
+                    <ul>
+                        <li class="li-categoria"><a href="list_post.html">Listar</a>
+                        <li class="li-categoria"><a href="create_post.html">Cadastrar</a>
+                    </ul>
+                </details>
 			</ul>
 		</div>
         <div class="main">
@@ -218,6 +251,7 @@
             new FroalaEditor("#edit")
         })()
     </script>
+    <script src="../js/menu_navbar.js"></script>
 </body>
 
 </html>
